@@ -1,0 +1,175 @@
+#header{
+    background-color: aquamarine;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 40px;
+    font-style: italic;
+}
+#header a{
+    text-decoration: none;
+    color: black;
+}
+
+.pagetitle{
+    padding-left: 30px;
+}
+
+.honbun{
+    width: 30rem;
+    padding-left: 30px;
+}
+.honbun1{
+    width: 12rem;
+    padding-left: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+textarea{   
+    vertical-align:top;
+}    
+.kiji{
+    text-indent: 32px;
+    margin-bottom: 3rem;
+    position: relative;
+}
+.messagetitle{
+    width: 15rem;
+    margin-bottom: 20px;
+}
+.message{
+    width: 15rem;
+    height: 10rem;
+}
+
+.sousin{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 100px;
+}
+
+.button{
+    display: flex;
+    margin:  0 0 0 auto;
+    color: #fff;
+    padding: 12px 28px; /* 上下の余白、左右の余白 */
+    text-decoration: none; 
+    border-radius: 30px; /* 角を丸くする */
+    font-weight: bold;
+    border-bottom: 2px solid #333333;
+    background-image: linear-gradient(90deg, rgba(254, 182, 64, 1), rgba(255, 117, 2, 1));
+}
+
+.success_message {
+    width: 30rem;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+    color: #48b400;
+    border-radius: 10px;
+    border: 1px solid #4dc100;
+}
+
+.error_message {
+    width: 30rem;
+    margin-bottom: 20px;
+    padding: 10px;
+    /*color: #ef072d;
+    list-style-type: none;
+    border-radius: 10px;
+    border: 1px solid #ff5f79;*/
+}
+
+
+/*-----------------------------------
+コメントエリア
+-----------------------------------*/
+article {
+    margin-top: 20px;
+    margin-bottom: 20px;
+	padding: 20px;
+	border-radius: 10px;
+    height: 6rem;
+	background: paleturquoise;
+}
+article.reply {
+    position: relative;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+article.reply::before {
+    position: absolute;
+    top: -10px;
+    left: 20px;
+    display: block;
+    content: "";
+    border-top: none;
+    border-left: 7px solid #f7f7f7;
+    border-right: 7px solid #f7f7f7;
+    border-bottom: 10px solid #fff;
+}
+.title{
+    font-size: 1.5em;
+    font-weight: bold;
+    line-height: 1.6em;
+    list-style: none;
+}
+.naiyou{
+    list-style: none;
+}
+article p {
+    color: #555;
+    font-size: 86%;
+    line-height: 1.6em;
+}
+.ul{
+    width: 100%;
+    padding-inline-start: 0;
+    position: relative;
+}
+/*-----------------------------------
+コメントページ
+-----------------------------------*/
+.comentomessage{
+    width: 11rem;
+    height: 11rem;
+}
+.comentomessage:focus{
+    background-color: paleturquoise;
+}
+.comentobutton{
+    display: flex;
+    margin:  0 0 0 auto;
+    color: #fff;
+    padding: 12px 28px; /* 上下の余白、左右の余白 */
+    text-decoration: none; 
+    font-weight: bold;
+    border-bottom: 1px solid #333333;
+    background-image: linear-gradient(0deg, rgba(196,239,255,1), rgba(102,184,204,1));
+}
+.toukou{
+    text-indent: 32px;
+}
+.comentoarticle{
+    margin-top: 20px;
+    margin-bottom: 20px;
+	padding: 20px;
+	border-radius: 10px;
+    width: 10rem;
+    height: 10rem;
+	background: paleturquoise;
+    display: flex;
+    margin-right: 10px;
+}
+.btn-submit-comento{
+    align-items: flex-end;
+}
+.comentoul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.komento{
+    display: flex;
+    flex-wrap: wrap;
+}
